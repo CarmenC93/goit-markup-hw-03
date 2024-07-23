@@ -23,27 +23,32 @@
     <link rel="stylesheet" href="./css/styles.css"/>
   </head>
   <body>
-    <header>
+    <header class="header-container">
       <nav class="navigation-container">
+        <div class="container">
         <a href="./index.html" class="logo">Web<span class="header-logo">Studio</span>
         </a>
-        <ul>
-          <li> <a href="./index.html" class="header-link">Studio</a></li>
-            <li> <a href="" class="header-link">Portfolio</a></li>
-          <li><a href="" class="header-link">Contacts</a></li>
+        <ul class="header-item">
+          <li class="header-list list"> 
+            <a href="./index.html" class="header-link link">Studio</a></li>
+            <li class="header-list list"> 
+              <a href="" class="header-link link">Portfolio</a></li>
+          <li class="header-list list">
+            <a href="" class="header-link link">Contacts</a></li>
         </ul>
+      </div>
       </nav> 
 
-      <address class="address-list">
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="address-link"
+      <address class="address-section">
+        <ul class="address-item">
+          <li class="address-list list">
+            <a href="mailto:info@devstudio.com" class="address-link link"
               >info@devstudio.com</a
             >
           </li>
 
-          <li>
-            <a href="tel:+110001111111" class="address-link"
+          <li class="address-list list">
+            <a href="tel:+110001111111" class="address-link link"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -52,54 +57,59 @@
     </header>
 
     <main>
-      <section class="hero-section">
+      <section class="hero-section section">
+        <div class="container">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button type="button" class="button-section">Order Service</button>
+      </div>
       </section>
 
-      <section class="secondary-section">
+      <section class="secondary-section section">
+        <div class="container">
         <h2 class="secondary-title">No title</h2>
 
-        <ul>
-          <li>
-            <h3 class="description-title">Strategy</h3>
+        <ul class="description-item">
+          <li class="description-list list" class="flexbox-container">
+            <h3 class="description-title link" class="flexbox-item flexbox-item-1">Strategy</h3>
             <p class="description-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
 
-          <li>
-            <h3 class="description-title">Punctuality</h3>
+          <li class="description-list list" class="flexbox-item flexbox-item-2">
+            <h3 class="description-title link">Punctuality</h3>
             <p class="description-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
 
-          <li>
-            <h3 class="description-title">Diligence</h3>
+          <li class="description-list list" class="flexbox-item flexbox-item-3">
+            <h3 class="description-title link">Diligence</h3>
             <p class="description-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
 
-          <li>
-            <h3 class="description-title">Technologies</h3>
+          <li class="description-list list" class="flexbox-item flexbox-item-4">
+            <h3 class="description-title link">Technologies</h3>
             <p class="description-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
+        </div>
       </section>
 
-      <section class="section-team">
+      <section class="section-team section">
+        <div class="container">
         <h2 class="title-team">Our Team</h2>
 
         <ul>
-          <li class="list-image">
+          <li class="list-image list">
             <img 
               src="./images/mark.jpg"
               alt="Mark Guerrero"
@@ -107,118 +117,121 @@
               height="260"
             />
 
-            <h3 class="image-title">Mark Guerrero</h3>
+            <h3 class="image-title link">Mark Guerrero</h3>
             <p class="image-text">Product Designer</p>
           </li>
 
-          <li class="list-image">
+          <li class="list-image list">
             <img
               src="./images/Tom.jpg"
               alt="Tom Ford"
               width="264"
               height="260"
             />
-            <h3 class="image-title">Tom Ford</h3>
+            <h3 class="image-title link">Tom Ford</h3>
             <p class="image-text">Frontend Developer</p>
           </li>
 
-          <li class="list-image">
+          <li class="list-image list">
             <img
               src="./images/Camila.jpg"
               alt="Camila Garcia"
               width="264"
               height="260"
             />
-            <h3 class="image-title">Camila Garcia</h3>
+            <h3 class="image-title link">Camila Garcia</h3>
             <p class="image-text">Marketing</p>
           </li>
 
-          <li class="list-image">
+          <li class="list-image list">
             <img
               src="./images/daniel.jpg"
               alt="Daniel Wilson"
               width="264"
               height="260"
             />
-            <h3 class="image-title">Daniel Wilson</h3>
+            <h3 class="image-title link">Daniel Wilson</h3>
             <p class="image-text">UI Designer</p>
           </li>
         </ul>
+      </div>
       </section>
 
-      <section>
+      <section class="portfolio-section section">
+        <div class="container">
         <h2 class="title-portfolio">Our Portfolio</h2>
         <ul>
-          <li>
+          <li class="portfolio-list list">
             <img
               src="./images/bankingapp.jpg"
               alt="Banking App"
               width="360"
               height="300"
             />
-            <h3 class="product-subtitle">Banking App</h3>
+            <h3 class="product-subtitle link">Banking App</h3>
             <p class="product-description">App</p>
           </li>
 
-          <li>
+          <li class="portfolio-list list">
             <img
               src="./images/cashlessapp.jpg"
               alt="Cashless payment"
               width="360"
               height="300"
             />
-            <h3 class="product-subtitle">Cashless Payment</h3>
+            <h3 class="product-subtitle link">Cashless Payment</h3>
             <p class="product-description">Marketing</p>
           </li>
 
-          <li>
+          <li class="portfolio-list list">
             <img
               src="./images/meditation.jpg"
               alt="Meditation App"
               width="360"
               height="300"
             />
-            <h3 class="product-subtitle">Meditation App</h3>
+            <h3 class="product-subtitle link">Meditation App</h3>
             <p class="product-description">App</p>
           </li>
 
-          <li>
+          <li class="portfolio-list list">
             <img
               src="./images/taxi.jpg"
               alt="Taxi Service"
               width="360"
               height="300"
             />
-            <h3 class="product-subtitle">Taxi Service</h3>
+            <h3 class="product-subtitle link">Taxi Service</h3>
             <p class="product-description">Marketing</p>
           </li>
 
-          <li>
+          <li class="portfolio-list list">
             <img
               src="./images/screen.jpg"
               alt="Screen Illuminatios"
               width="360"
               height="300"
             />
-            <h3 class="product-subtitle">Screen Illustrations</h3>
+            <h3 class="product-subtitle link">Screen Illustrations</h3>
             <p class="product-description">Design</p>
           </li>
 
-          <li>
+          <li class="portfolio-list list">
             <img
               src="./images/onlineC.jpg"
               alt="Online Courses"
               width="360"
               height="300"
             />
-            <h3 class="product-subtitle">Online Courses</h3>
+            <h3 class="product-subtitle link">Online Courses</h3>
             <p class="product-description">Marketing</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
 
-    <footer class="footer-section">
+    <footer class="footer-section section">
       <a href="./index.html" class="logo">Web<span class="footer-logo">Studio</span>
     </a>
       <p class="footer-text">
@@ -227,4 +240,4 @@
       </p>
     </footer>
   </body>
-</html>
+</ht

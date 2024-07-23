@@ -1,9 +1,28 @@
+/*Style reset*/
+h1, h2, h3, h4, h5, h6, p {margin:0}
+html {box-sizing: border-box}
+*, *::after, *::before {box-sizing: inherit}
+img {display: block; max-width: 100%; height:auto}
+address {font-style:normal;}
+.link {text-decoration: none; color:inherit;}
+.list {list-style: none; padding: 0; margin:0;}
+
+/*End style reset*/
 
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     color:  #434455;
     background-color: #FFFFFF;
+}
+
+
+.container {
+    max-width: 1158px;
+}
+
+.header-container {
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .navigation-container {
@@ -19,6 +38,7 @@ letter-spacing: 0.03em;
 text-align: left;
 color: #4D5AE5;
 text-transform: uppercase;
+text-decoration: none;
 
 }
 
@@ -31,9 +51,14 @@ letter-spacing: 0.03em;
 text-align: left;
 color:#2E2F42;
 text-transform: uppercase;
+text-decoration: none;
 
 }
 
+.header-item .header-list {
+    display: inline;
+    padding-left: 40px;
+}
 .header-link:hover,
 .header-link:focus {
     color: #404bbf;
@@ -49,8 +74,13 @@ color: #2e2f42;
 
 }
 
-.address-list {
+.address-section {
     font-style: normal;
+}
+
+.address-item .address-list {
+    display: inline;
+    padding-left: 40px;
 }
 
 .address-link {
@@ -70,7 +100,12 @@ color: #404bbf;
 }
 
 .hero-section {
-    background-color: #2E2F42;
+background-color: #2E2F42;
+ width: 1440px;
+height: 600px;
+top: 72px;
+gap: 0px;
+opacity: 0px;
 
 }
 
@@ -80,7 +115,11 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-text-align: center
+text-align: center;
+padding-top: 188px;
+padding-bottom: 48px;
+padding-right: 472px;
+padding-left: 472px;
 }
 
 .button-section:hover,
@@ -96,7 +135,14 @@ line-height: 24px;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 cursor: pointer;
-background-color: #4D5AE5
+background-color: #4D5AE5;
+border-radius: 4px;
+border: none;
+padding-top: 16px;
+padding-bottom: 16px;
+padding-right: 32px;
+padding-left: 32px;
+margin-left: 636px;
 
 }
 
@@ -106,14 +152,24 @@ background-color: #4D5AE5
     letter-spacing: 0.02em;
 }
 
+.flexbox-container {
+display: flex;
+justify-content: space-around;
+
+}
+
 .description-title {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
+padding-bottom: 8px;
 
 }
+
+
+
  .description-text {
 font-size: 16px;
 font-weight: 400;
@@ -210,7 +266,7 @@ text-transform: uppercase;
 color: #F4F4FD;
 
  }
- 
+
  .footer-text {
 font-weight: 400;
 line-height: 24px;
