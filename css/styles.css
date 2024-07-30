@@ -70,11 +70,11 @@ body {
 }
 
 .nav-container {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
-.logo {
+.main-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -120,7 +120,6 @@ body {
   text-align: left;
   color: #2e2f42;
 }
-
 
 .address-item {
   display: flex;
@@ -187,15 +186,14 @@ body {
   overflow: hidden;
 }
 
-
 .description-item {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 3 * 24px) / 4)
- 
 }
 
-
+.description-list {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
 
 .description-last {
   margin-right: 0;
@@ -249,13 +247,12 @@ body {
 
 .list-image {
   background-color: #ffffff;
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
 .employee-container {
-    padding: 32px 0;
-
+  padding: 32px 0;
 }
 .image-title {
   font-size: 20px;
@@ -265,7 +262,6 @@ body {
   color: #2e2f42;
   text-align: center;
   margin-bottom: 8px;
-
 }
 
 .image-text {
@@ -279,12 +275,8 @@ body {
 }
 
 .portfolio-section {
-padding-top: 120px;
-padding-bottom: 120px;
-}
-
-.portfolio-list {
-    width: calc((100% - 48px) / 3);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .title-portfolio {
@@ -295,26 +287,25 @@ padding-bottom: 120px;
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
- margin-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .main-portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-list {
-    width: calc((100% - 48px) / 3)
+  width: calc((100% - 48px) / 3);
 }
 
 .product-container {
-     padding: 32px 16px;
-     border: 1px solid #e7e9fc;
-     border-top: none;
-     margin-bottom: 8px;
-
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .product-subtitle {
   font-size: 20px;
@@ -345,8 +336,6 @@ padding-bottom: 120px;
   margin-bottom: 16px;
 }
 
-
-
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -359,7 +348,7 @@ padding-bottom: 120px;
 }
 
 .footer-text {
-max-width: 264px;
-color: #F4F4FD;
-margin-top: 16px;
+  max-width: 264px;
+  color: #f4f4fd;
+  margin-top: 16px;
 }
