@@ -44,7 +44,7 @@ body {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -66,11 +66,12 @@ body {
 .navigation-container {
   align-items: center;
   background-color: #ffffff;
-}
-.nav-container {
   display: flex;
-  align-items: center;
-  column-gap: 40px;
+}
+
+.nav-container {
+    display: flex;
+    gap: 40px;
 }
 
 .logo {
@@ -109,23 +110,17 @@ body {
 .header-list {
   padding: 24px 0;
 }
+
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
 }
+
 .header-link {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
 }
 
-.address-section {
-  font-style: normal;
-  column-gap: 40px;
-}
 
 .address-item {
   display: flex;
@@ -133,11 +128,6 @@ body {
 }
 
 .address-link {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.02em;
   font-style: normal;
   color: #434455;
 }
@@ -201,11 +191,11 @@ body {
 .description-item {
   display: flex;
   gap: 24px;
+  flex-basis: calc((100% - 3 * 24px) / 4)
+ 
 }
 
-.description-list {
-  margin-right: 24px;
-}
+
 
 .description-last {
   margin-right: 0;
@@ -259,7 +249,7 @@ body {
 
 .list-image {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -293,6 +283,10 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
+.portfolio-list {
+    width: calc((100% - 48px) / 3);
+}
+
 .title-portfolio {
   font-size: 36px;
   font-weight: 700;
@@ -319,7 +313,7 @@ padding-bottom: 120px;
      padding: 32px 16px;
      border: 1px solid #e7e9fc;
      border-top: none;
-     margin-top: 8px;
+     margin-bottom: 8px;
 
 }
 .product-subtitle {
