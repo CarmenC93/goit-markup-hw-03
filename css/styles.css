@@ -197,10 +197,6 @@ body {
   overflow: hidden;
 }
 
-.flexbox-container {
-  display: flex;
-  justify-content: space-around;
-}
 
 .description-item {
   display: flex;
